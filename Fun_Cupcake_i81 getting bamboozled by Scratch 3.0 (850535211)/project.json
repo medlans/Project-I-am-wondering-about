@@ -1,0 +1,77 @@
+{
+	"objName": "Stage",
+	"variables": [{
+			"name": "my variable",
+			"value": 0,
+			"isPersistent": false
+		}],
+	"scripts": [[13.3,
+			15,
+			[["whenGreenFlag"], ["startScene", "costume1"], ["doForever", [["doPlaySoundAndWait", "Mystery"]]]]],
+		[92.65, 189.4, [["whenClicked"], ["nextScene"]]],
+		[234, 152.2, [["whenKeyPressed", "space"], ["nextScene"]]],
+		[398, 205.55, [["playSound:", "Mystery"]]],
+		[128, 271.1, [["whenKeyPressed", "right arrow"], ["nextScene"]]],
+		[345.3, 342.75, [["whenKeyPressed", "left arrow"], ["startScene", "previous backdrop"]]]],
+	"scriptComments": [[538, 206.55, 144, 149, true, 8, "OOOOOO\r\r\rSPOOKYYYYY"]],
+	"sounds": [{
+			"soundName": "Mystery",
+			"soundID": 0,
+			"md5": "a822b56063729f4f42f9a62e6010768b.wav",
+			"sampleCount": 94489,
+			"rate": 22050,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "costume1",
+			"baseLayerID": 2,
+			"baseLayerMD5": "6d10e921315d5d8d137ce848acdfd471.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 253,
+			"rotationCenterY": 192
+		},
+		{
+			"costumeName": "bambozoel",
+			"baseLayerID": 3,
+			"baseLayerMD5": "143867091e5d733d174a6a41b1d93117.svg",
+			"bitmapResolution": 1,
+			"rotationCenterX": 251,
+			"rotationCenterY": 190
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "thumbnail",
+			"scripts": [[99.3, 16.1, [["whenGreenFlag"], ["setGraphicEffect:to:", "ghost", 100]]]],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "e850d2e0becd481b3f4d6c3fa780c7ef.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 251,
+					"rotationCenterY": 190
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -2,
+			"scratchY": -4,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"spriteCount": 1,
+		"videoOn": false,
+		"scriptCount": 6,
+		"swfVersion": "v461",
+		"flashVersion": "MAC 33,1,1,533",
+		"userAgent": "Scratch 2.0 Offline Editor"
+	}
+}
